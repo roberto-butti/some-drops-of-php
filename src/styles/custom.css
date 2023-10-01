@@ -1,0 +1,70 @@
+/* Dark mode colors. */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+p {
+    font-family: Lora;
+    font-size: larger;
+}
+
+h1 {
+    font-family: Lora;
+
+}
+
+h2 {
+    font-family: Lora;
+
+}
+
+.line {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: larger;
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+
+    margin: 0 0;
+    padding: 0.1em 0.4em;
+    line-height: normal;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(to right,
+            rgba(255, 225, 0, 0.1),
+            rgba(255, 225, 0, 0.7) 4%,
+            rgba(255, 225, 0, 0.3));
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+/* Dark mode colors. */
+:root {
+    --sl-color-accent-low: #202331;
+    --sl-color-accent: #5b6796;
+    --sl-color-accent-high: #c3c8da;
+    --sl-color-white: #ffffff;
+    --sl-color-gray-1: #eceef2;
+    --sl-color-gray-2: #c0c2c7;
+    --sl-color-gray-3: #888b96;
+    --sl-color-gray-4: #545861;
+    --sl-color-gray-5: #353841;
+    --sl-color-gray-6: #24272f;
+    --sl-color-black: #17181c;
+}
+
+/* Light mode colors. */
+:root[data-theme='light'] {
+    --sl-color-accent-low: #d2d6e4;
+    --sl-color-accent: #5d6999;
+    --sl-color-accent-high: #2c3146;
+    --sl-color-white: #17181c;
+    --sl-color-gray-1: #24272f;
+    --sl-color-gray-2: #353841;
+    --sl-color-gray-3: #545861;
+    --sl-color-gray-4: #888b96;
+    --sl-color-gray-5: #c0c2c7;
+    --sl-color-gray-6: #eceef2;
+    --sl-color-gray-7: #f5f6f8;
+    --sl-color-black: #ffffff;
+}
