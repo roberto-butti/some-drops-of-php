@@ -33,7 +33,7 @@ export default defineConfig({
 					collapsed: true
 				},
 				{
-					label: '🎨 (3) Vars, Objects',
+					label: '🗄️ (3) Vars, Objects',
 					autogenerate: { directory: '03-vars' },
 					collapsed: true
 				},
@@ -45,6 +45,11 @@ export default defineConfig({
 				{
 					label: '🧵 (5) Strings',
 					autogenerate: { directory: '05-string' },
+					collapsed: true
+				},
+				{
+					label: '📁 (6) Files',
+					autogenerate: { directory: '06-file' },
 					collapsed: true
 				},
 				{
