@@ -33,13 +33,23 @@ export default defineConfig({
 					collapsed: true
 				},
 				{
-					label: '🎨 (3) Vars, Objects',
+					label: '🗄️ (3) Vars, Objects',
 					autogenerate: { directory: '03-vars' },
 					collapsed: true
 				},
 				{
 					label: '🚲 (4) Functions',
 					autogenerate: { directory: '04-functions' },
+					collapsed: true
+				},
+				{
+					label: '🧵 (5) Strings',
+					autogenerate: { directory: '05-string' },
+					collapsed: true
+				},
+				{
+					label: '📁 (6) Files',
+					autogenerate: { directory: '06-file' },
 					collapsed: true
 				},
 				{
