@@ -18,18 +18,23 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: '📔 Intro',
+					label: '📔 (0) Intro',
 					autogenerate: { directory: '00-intro' },
 					collapsed: false
 				},
 				{
-					label: '🧑‍💻 System',
+					label: '🧑‍💻 (1) System',
 					autogenerate: { directory: '01-system' },
 					collapsed: true
 				},
 				{
-					label: '📚 Array',
+					label: '📚 (2) Array',
 					autogenerate: { directory: '02-array' },
+					collapsed: true
+				},
+				{
+					label: '📚 (3) Vars, Objects',
+					autogenerate: { directory: '03-vars' },
 					collapsed: true
 				},
 				{
