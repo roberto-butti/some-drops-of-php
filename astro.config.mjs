@@ -43,6 +43,11 @@ export default defineConfig({
 					collapsed: true
 				},
 				{
+					label: '🧵 (5) Strings',
+					autogenerate: { directory: '05-string' },
+					collapsed: true
+				},
+				{
 					label: '[ 🧑‍💻 Sources ]',
 					items: [
 						// Each item here is one entry in the navigation menu.
