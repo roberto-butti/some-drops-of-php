@@ -36,10 +36,12 @@ Here are some of the ways you can get involved:
 
 ## How to Get Started
 
-1. Fork the repository to your GitHub account.
+The **Some drops of PHP** repository is: https://github.com/roberto-butti/some-drops-of-php
+
+1. Fork the [repository](https://github.com/roberto-butti/some-drops-of-php) to your GitHub account.
 2. Create a new branch for your contributions.
 3. Make your changes and commit them.
-4. Open a pull request to merge your changes back into the main repository.
+4. Open a pull request to merge your changes back into [the **Some drops of PHP** repository](https://github.com/roberto-butti/some-drops-of-php).
 
 For more detailed instructions, please check our [Contribution Guidelines](https://github.com/roberto-butti/some-drops-of-php/blob/main/CONTRIBUTING.md).
 
