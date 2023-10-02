@@ -33,8 +33,13 @@ export default defineConfig({
 					collapsed: true
 				},
 				{
-					label: '📚 (3) Vars, Objects',
+					label: '🎨 (3) Vars, Objects',
 					autogenerate: { directory: '03-vars' },
+					collapsed: true
+				},
+				{
+					label: '🚲 (4) Functions',
+					autogenerate: { directory: '04-functions' },
 					collapsed: true
 				},
 				{
