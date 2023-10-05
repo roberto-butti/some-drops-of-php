@@ -22,7 +22,9 @@ I was thinking to print this book, but I think that is not so eco-friendly and a
 
 - **W.I.P.** the 1.0.0 version is not yet released: writing... ;
 
-> The book is **Work in Progress**, the list of the functions covered by the book at the moment are listed in [list-of-functions.md](list-of-functions.md) file
+:::note
+The book is **Work in Progress**, the list of the functions covered by the book at the moment are listed in [list-of-functions.md](list-of-functions.md) file
+:::
 
 So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: https://github.com/roberto-butti/some-drops-of-php/issues
 

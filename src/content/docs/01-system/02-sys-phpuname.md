@@ -8,7 +8,9 @@ sidebar:
 ## Display OS information: `php_uname()`
 Display information about the operating system.
 
-> `uname` (it means Unix Name) is a historical Unix command to display the name, version and other details about the current machine and the operating system running on it.
+:::tip[Did you know?]
+`uname` (it means Unix Name) is a historical Unix command to display the name, version and other details about the current machine and the operating system running on it.
+:::
 
 With `php_uname()` you can retrieve operating system information in a PHP script.
 The function has a parameter `mode`, that allows you to define which information you want returned:
