@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://some-drops-of-php.vercel.app/',
+	site: 'https://drops-of-php.hi-folks.dev/',
 	integrations: [
 		starlight({
 			title: 'Some drops of PHP',
