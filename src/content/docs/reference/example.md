@@ -3,8 +3,8 @@ title: Example Reference
 description: A reference page in my new Starlight docs site.
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
+Reference pages outline how things work in terse and unambiguous terms.
+They should give a comprehensive outline of what you're documenting and be less concerned with telling a story or addressing a specific use case.
 
 ## Further reading
 
