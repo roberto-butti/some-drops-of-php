@@ -12,7 +12,7 @@ The md5 hash is a string with a 32-character hexadecimal number.
 
 It is useful when you need to compare 2 versions of the same file. For example, it is useful for large files downloaded from the internet just to check if the download file is corrupted and/or matches with the original file.
 
-Or it is useful to track if a file was changed. If two md5 hashes are equal, it means that the files are the same.
+Or it is useful to track if a file was changed. If two md5 hashes are equal, it means that the two files have the identical content.
 
 ```php
 echo md5_file(__FILE__);

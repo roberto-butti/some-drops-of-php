@@ -30,7 +30,7 @@ $return = mkdir("./testdir", 0777);
 var_dump($return);
 ```
 
-If you notice that the directory created has no write permission, my suggestion is to check if you have some `umask` configuration.
+If you notice that the directory created has no the permission you expect, my suggestion is to check if you have some `umask` configuration.
 
 For example, a workaround is to unset the `umask` in order to stop it from interfering with permissions:
 
