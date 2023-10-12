@@ -5,14 +5,14 @@ sidebar:
   label: MD5 of a file
 ---
 
-## The fingerprint of a file: `md5_file()`
+## The Fingerprint of a File: `md5_file()`
 The `md5_file()` function calculates the md5 hash of a given file (the fingerprint).
 
-The md5 hash is a string with 32-character hexadecimal number.
+The md5 hash is a string with a 32-character hexadecimal number.
 
-It is useful when you need to compare 2 version of the same file, for example it is useful for large files downloaded from internet just to check if the download file is corrupted and / or match with the original file.
+It is useful when you need to compare 2 versions of the same file. For example, it is useful for large files downloaded from the internet just to check if the download file is corrupted and/or matches with the original file.
 
-Or it is useful to track if a file was changed. If two md5 hash are equals it means that the files are equals.
+Or it is useful to track if a file was changed. If two md5 hashes are equal, it means that the files are the same.
 
 ```php
 echo md5_file(__FILE__);
