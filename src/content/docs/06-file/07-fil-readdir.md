@@ -1,20 +1,20 @@
 ---
-title: Walkthrough a directory
+title: Walkthrough a Directory
 description: Walkthrough a directory in PHP
 sidebar:
   label: Walkthrough a directory
 ---
 
 ## Read dir: `readdir()`
-If you need to parse a directory, retrieving all files also hidden file etc, you can use `readdir()` function.
+If you need to parse a directory: list all files, retrieve all files (including hidden files) etc, you can use the `readdir()` function.
 
-Two things:
+NOTE:
 
 - it needs to be used with `opendir()` and `closedir()`;
 - it doesn't return all the files immediately but one by one, so you need to loop through the `readdir()` results
 
 ```php
-// open the directory and obtian a handle variable
+// Open the directory and obtain a handle variable
 $handle = opendir('.');
 // loops through "readdir"
 while (false !== ($entry = readdir($handle))) {
