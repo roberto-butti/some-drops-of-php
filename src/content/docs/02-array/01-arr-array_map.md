@@ -33,7 +33,6 @@ In the example above, the output of the $b variable would be:
 
 ## Using multiple arrays
 
-You can also use multiple arrays in the `array_map()` function by seperating them with commas.
 Assuming you have several array variables and you need to join each of the values,
 you can use `array_map()` with multiple arrays by seperating each of the arrays with commas(,).
 
