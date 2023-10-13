@@ -7,7 +7,7 @@ sidebar:
 
 ## Read file content: `file()`
 If you want to be able to read a file, you can use the `file()` function. It puts the file contents into an array so you can work with it line by line or as a list.
-Assuming you have a list of countries in a text (.txt) file and you need to display the list, you can use the `file()` function to read the file and convert it to an array.
+Assuming you have a list of countries in a text `(.txt)` file and you need to display the list, you can use the `file()` function to read the file and convert it to an array.
 
 Here's an example:
 
@@ -61,7 +61,7 @@ Below are the file constants:
 | FILE_IGNORE_NEW_LINES  | Skip the newline at the end of the array element. |
 | FILE_SKIP_EMPTY_LINES  | Skip empty lines in the file.                     |
 
-Another example:
+## Another example:
 
 ```php
 
