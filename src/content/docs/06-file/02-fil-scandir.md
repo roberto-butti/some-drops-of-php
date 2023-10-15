@@ -1,7 +1,7 @@
 ---
-title: Parsing a directory
-description: Parsing a directory, retrieivng the elements in the directory in PHP
-sidebar:
+Title: Parsing a Directory
+Description: Parsing a directory, retrieving the elements in the directory in PHP
+Sidebar:
   label: Parse a directory
 ---
 
@@ -14,7 +14,7 @@ $files = scandir(__DIR__);
 var_dump($files);
 ```
 
-A directory name (string) as input and you will get an array of strings: filenames, directory names, also including special directories like "." and "..".
+A directory name (string) as input will get you an array of strings: filenames, directory names, also including special directories like "." and "..".
 
 You can control the sorting with 2 constants. The default is an ascending sorting (alphabetical). With `SCANDIR_SORT_DESCENDING` you can obtain string with a descending order:
 
