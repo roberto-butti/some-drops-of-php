@@ -1,7 +1,7 @@
 ---
-title: File informations
-description: Getting file informations in PHP
-sidebar:
+Title: File information
+Description: Getting file information in PHP
+Sidebar:
   label: File information
 ---
 
@@ -12,7 +12,7 @@ The parameter is the filename and it returns an associative array with some info
 
 - `dev`: device number
 - `ino`: inode number
-- `mode`: contains information read by several functions. When written in octal, starting from the right, the first three digits are returned by the `chmod()` function. The next digit is ignored by PHP. The next two digits indicate the file type
+- `mode`: contains information read by several functions. When written in octal, starting from the right, the `chmod()` function returns the first three digits. PHP ignores the next digit. The following two digits indicate the file type
 - `nlink`: number of links
 - `uid`, `gid`: userid and groupid
 - `rdev`: device type
@@ -23,7 +23,7 @@ The parameter is the filename and it returns an associative array with some info
 - `blksize`: blocksize
 - `blocks`: number of blocks allocated
 
-I use a lot the `mode`, `uid`, `gid`, `size` and `mtime` information.
+I use a lot of the `mode`, `uid`, `gid`, `size` and `mtime` information.
 
 ```php
 $filestat = stat($filename);
@@ -46,7 +46,7 @@ For the file type:
 - 0060xxx: block file
 - 0040xxx: directory
 - 0020xxx: character device
-- 0010xxx: fifo
+- 0010xxx: FIFO
 
 To retrieve only the bytes for the file type you can use a bitmask, something like: `$filestat['mode'] & 0xF000`
 
@@ -55,7 +55,7 @@ $filestat = stat($filename);
 var_dump(sprintf("%'07o",$filestat['mode'] & 0xF000));
 ```
 
-I have an anonymous function to retrieve the file type in a more descriptive way, using match constructor:
+I have an anonymous function to retrieve the file type in a more descriptive way, using a match constructor:
 
 ```php
 $getinfo = function ($filename) {
@@ -79,9 +79,9 @@ echo $getinfo(__DIR__) . PHP_EOL;
 
 ### Symbolic link information
 
-A symbolic link is a special file that just link to another real file.
+A symbolic link is a special file that links to a real file.
 
-If you use the `stat()` function on a symbolic link file, you will obtain information of the target file (the file linked by the symbolic link). Instead, if you want to obtain information about the symbolic link is to use `lstat()` function.
+If you use the `stat()` function on a symbolic link file, you will obtain information about the target file (the file linked by the symbolic link). However, if you want to obtain information about the symbolic link, use the `lstat()` function.
 
 ```php
 $filestat = lstat($filename);
