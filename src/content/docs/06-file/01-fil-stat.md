@@ -1,5 +1,5 @@
 ---
-Title: File information
+Title: File Information
 Description: Getting file information in PHP
 Sidebar:
   label: File information
