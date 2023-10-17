@@ -9,7 +9,7 @@ sidebar:
 
 You can convert the case of a sentence with the `mb_convert_case()` function.
 
-You have multiple modes for influencing the way you want to change the case, some of them are pretty similar:
+You have multiple modes for influencing the way you want to change the case, and some of them are pretty similar:
 
 ```php
 $modes = [
@@ -24,7 +24,7 @@ $modes = [
 ];
 ```
 
-For example you can convert all chars in upper case with `MB_CASE_UPPER`, or you can convert all chars in lower case with `MB_CASE_LOWER` or you can obtain words with the first letter upper case and all others with lower case like "Hello, How Are You?"
+For example, you can convert all chars in upper case with `MB_CASE_UPPER`, or you can convert all chars in lower case with `MB_CASE_LOWER`, or you can obtain words with the first letter upper case and all others with lower case like "Hello, How Are You?"
 
 ```php
 foreach ($modes as $mode) {
