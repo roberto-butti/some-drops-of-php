@@ -1,7 +1,7 @@
 ---
-Title: Parsing a Directory
-Description: Parsing a directory, retrieving the elements in the directory in PHP
-Sidebar:
+title: Parsing a Directory
+description: Parsing a directory, retrieving the elements in the directory in PHP
+sidebar:
   label: Parse a directory
 ---
 

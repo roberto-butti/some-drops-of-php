@@ -1,7 +1,7 @@
 ---
-Title: Path Information
-Description: Getting path information of a file in PHP
-Sidebar:
+title: Path Information
+description: Getting path information of a file in PHP
+sidebar:
   label: Path information
 ---
 

@@ -1,7 +1,7 @@
 ---
-Title: Managing Files
-Description: Functions for managing files in PHP
-Sidebar:
+title: Managing Files
+description: Functions for managing files in PHP
+sidebar:
   label: Intro
 ---
 
