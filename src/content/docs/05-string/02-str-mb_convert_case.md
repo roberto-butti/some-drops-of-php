@@ -1,7 +1,7 @@
 ---
-Title: Changing The Case of a String
-Description: Changing the case of a sentence of strings in PHP
-Sidebar:
+title: Changing the case of a string
+description: Changing the case of a sentence of strings in PHP
+sidebar:
   label: Changing case
 ---
 
