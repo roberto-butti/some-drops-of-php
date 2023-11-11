@@ -13,6 +13,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# debugging files
+rector.php
+
 
 # environment variables
 .env
