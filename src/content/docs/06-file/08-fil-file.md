@@ -39,9 +39,9 @@ Array ( [0] => Australia [1] => Afghanistan [2] => Albania [3] => Algeria ......
 
 ```
 
-## File function parameters
+## The `file()` function parameters
 
-The `file()` function has three paramenters which are passed as arguments.
+The `file()` function has three parameters which are passed as arguments.
 
 ```php
 
@@ -51,7 +51,7 @@ file ( $filename , $flags , $context )
 
 - `$filename`: is the path to the file.
 - `$flags`: is an optional parameter that can be one or more of the constants.
-- `$context `:  allows you to specify a context for the file handle.
+- `$context`:  allows you to specify a context for the file handle.
 
 Below are the file constants:
 
@@ -61,7 +61,7 @@ Below are the file constants:
 | FILE_IGNORE_NEW_LINES  | Skip the newline at the end of the array element. |
 | FILE_SKIP_EMPTY_LINES  | Skip empty lines in the file.                     |
 
-## Another example:
+## Adding options and context
 
 ```php
 
@@ -72,13 +72,13 @@ print_r(file(__FILE__));
 print_r(file('https://cdn.wsform.com/wp-content/uploads/2020/06/color_web_safe.csv'));
 
 //If you need to set some header, you can use the "context"
-$opts = array(
-    'http' => array(
+$opts = [
+    'http' => [
         'method' => "GET",
         'header' => "Accept-language: en\r\n" .
             "Cookie: foo=bar\r\n"
-    )
-);
+    ]
+];
 $context = stream_context_create($opts);
 print_r(file(
     filename: 'https://cdn.wsform.com/wp-content/uploads/2020/06/color_web_safe.csv',
@@ -87,7 +87,7 @@ print_r(file(
 
 ```
 
-## File types that can be handled 
+## File types that can be handled
 
 Various file types can be handled by the `file()` function, including:
 
@@ -99,4 +99,3 @@ Various file types can be handled by the `file()` function, including:
 - `Config files (*.config, *.ini, etc.)`: These are files that store configuration data in a specific format.
 
 File extensions are not a restriction on the `file()` function. In general it can read any text-based file. The result might not be as expected if the file contains binary data or non-textual data.
-
