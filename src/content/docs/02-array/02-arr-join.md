@@ -11,8 +11,8 @@ If you need to create a string starting from an array you can use the `join()` f
 For example:
 - you have an array `["a", "b" , "c"]` and you want to obtain `"abc"`;
 - you have an array `["a", "b" , "c"]` and you want to obtain `"a-b-c"` (with "-" as the separator);
-It concatenates each element of the array using the string separator.
-The elements may be: string, character, number, boolean.
+The `join()` function concatenates each element of the array using the string separator.
+The elements may be string, character, number, or boolean.
 The separator may be a string (or just one character).
 
 If you have an array of characters and you want to obtain a string with "-" as the separator:
@@ -33,7 +33,7 @@ You can join not just strings but numbers and booleans as well:
 $string = join("_", ["a", 1, true]); // "a_1_1"
 ```
 
-You can omit the separator to concatenate the elements of the array
+You can omit the separator to concatenate the elements of the array, the returned string is a string with the array elements concatenated with no separator character:
 ```php
 $string = join(["a", "b", "c"]); // "abc"
 ```
