@@ -49,3 +49,35 @@ Array
     [six] => six
 )
 */
+
+$array_1 = ['🍎', '🍋', '🍓'];
+$array_2 = ['🍌', '🍊', '🍐'];
+var_dump(...$array_1, ...$array_2);
+/*
+string(4) "🍎"
+string(4) "🍋"
+string(4) "🍓"
+string(4) "🍌"
+string(4) "🍊"
+string(4) "🍐"
+*/
+
+$items = [...$array_1, ...$array_2];
+print_r($items);
+/*
+Array
+(
+    [0] => 🍎
+    [1] => 🍋
+    [2] => 🍓
+    [3] => 🍌
+    [4] => 🍊
+    [5] => 🍐
+)
+*/
+
+
+$array_1 = ["a" => '🍎', "b" => '🍋', "c" => '🍓'];
+$array_2 = ["a" => '🍌', "b" => '🍊', "c" =>'🍐'];
+$items = [...$array_1, ...$array_2];
+print_r($items);
