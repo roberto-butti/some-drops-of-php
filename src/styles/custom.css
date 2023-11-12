@@ -3,15 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 body {
-        font-family: Montserrat;
-            font-size: large;
+    font-family: Montserrat;
+    font-size: large;
     -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
 }
-
-
-
-
 
 .line {
     font-family: 'JetBrains Mono', monospace;
@@ -20,18 +16,18 @@ body {
 
 code {
     font-family: 'JetBrains Mono', monospace;
-
     margin: 0 0;
-    padding: 0.1em 0.4em;
+    padding: 0 0.3rem;
     line-height: normal;
-    border-radius: 0.8em 0.3em;
-    /*
+
+    box-sizing: border-box;
+    border-radius: 0.2em;
+    border: 1px solid var(--color-code-border);
     background: transparent;
-    background-image: linear-gradient(to right,
-            rgba(255, 225, 0, 0.1),
-            rgba(255, 225, 0, 0.7) 4%,
-            rgba(255, 225, 0, 0.3));
-            */
+    background-image: linear-gradient(113deg,
+            var(--color-code-light),
+            var(--color-code-dark));
+
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
@@ -49,6 +45,9 @@ code {
     --sl-color-gray-5: #353841;
     --sl-color-gray-6: #24272f;
     --sl-color-black: #17181c;
+    --color-code-border: #6e590c;
+    --color-code-light: #5b4b12;
+    --color-code-dark: #3e3205;
 }
 
 /* Light mode colors. */
@@ -65,4 +64,7 @@ code {
     --sl-color-gray-6: #eceef2;
     --sl-color-gray-7: #f5f6f8;
     --sl-color-black: #ffffff;
+    --color-code-border: #ffe100;
+    --color-code-light: #ffef7b;
+    --color-code-dark: #ffec5d;
 }
