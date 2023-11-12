@@ -1,7 +1,7 @@
 {
     "redirects": [
         {
-            "source": "/00-intro/01_hacktoberfest/",
+            "source": "/00-intro/01-hacktoberfest/",
             "destination": "/00-intro/01-contributing/",
             "permanent": true
         }
