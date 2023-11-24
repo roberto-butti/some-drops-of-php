@@ -14,7 +14,7 @@ if (version_compare($version, $min_version) > 0) {
 }
 
 if (version_compare($version, $min_version, 'ge')) {
-    echo "OK!   You have PHP ${version}. Minimum version is ${min_version}".PHP_EOL;
+    echo "OK!   You have PHP {$version}. Minimum version is {$min_version}".PHP_EOL;
 } else {
-    echo "OPS!  You have PHP ${version}. Minimum version is ${min_version}".PHP_EOL;
+    echo "OPS!  You have PHP {$version}. Minimum version is {$min_version}".PHP_EOL;
 }
