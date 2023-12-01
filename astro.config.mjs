@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Some drops of PHP',
+			logo: {
+				src: './src/assets/some-drops-of-php-logo.png'
+			},
 			customCss: [
 				'./src/styles/custom.css'
 			],
