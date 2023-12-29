@@ -21,7 +21,7 @@ I was thinking of printing this book, but I think that is not so eco-friendly an
 ### Releases
 
 :::note
-The book is **Work in Progress**, all the functions covered by the book at the moment are listed in [list-of-functions.md](list-of-functions.md) file
+The book is a Work in Progress. If you notice any errors or believe that a new function should be covered, feel free to open an issue [here](https://github.com/roberto-butti/some-drops-of-php/issues).
 :::
 
 So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: https://github.com/roberto-butti/some-drops-of-php/issues
