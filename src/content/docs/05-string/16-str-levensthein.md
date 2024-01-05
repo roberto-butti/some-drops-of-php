@@ -10,7 +10,7 @@ sidebar:
 The Levenshtein distance is a metric that calculates the difference or similarity between two text strings.
 It is named after Soviet mathematician Vladimir Levenshtein, who introduced this concept. This distance represents the minimum number of operations required to transform one string into the second string. The allowed operations are inserting a single character, deleting a single character, or replacing one character with another.
 
-For example, consider the words "house" and "crate." To turn "house" into "crate," an "s" must be added. Therefore, the Levenshtein distance between these two words is 1.
+For example, consider the words "halo" and "hallo." To turn "halo" into "hallo," an "l" must be added. Therefore, the Levenshtein distance between these two words is 1.
 
 This measure is used in various applications, such as spelling correction, searching for similarities between DNA sequences, comparing files to detect differences, and more. The Levenshtein distance is a helpful tool for assessing how similar or different two strings are based on the minimum operations required to transform one string into the other.
 
