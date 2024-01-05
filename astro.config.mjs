@@ -10,6 +10,15 @@ export default defineConfig({
 			logo: {
 				src: './src/assets/some-drops-of-php-logo.png'
 			},
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.png',
+					},
+				},
+			],
 			customCss: [
 				'./src/styles/custom.css'
 			],
