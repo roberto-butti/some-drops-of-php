@@ -30,7 +30,7 @@ in_array(111, $array); // true ??? :)
 in_array(false, $array); // true
 in_array(1, $array); // true ??? :)
 in_array('another string', $array); // true , because the true
-printf('empty array is in array: %b'.PHP_EOL, in_array([], $array)); // true, because the false
+printf('empty array is in array: %b' . PHP_EOL, in_array([], $array)); // true, because the false
 
 $array = ['My Test', 'second', 'third'];
 in_array('my tesT', $array); // false because in_array is case sensitive

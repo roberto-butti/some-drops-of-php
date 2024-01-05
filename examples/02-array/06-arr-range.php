@@ -18,7 +18,7 @@ print_r($a);
 
 // upper and lower case
 $s = implode(array_merge(range('A', 'Z'), range('a', 'z')));
-echo $s.PHP_EOL;
+echo $s . PHP_EOL;
 
 // Float
 $a = range(1.5, 4.45);

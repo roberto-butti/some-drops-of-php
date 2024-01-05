@@ -10,5 +10,5 @@ $options = [
 ];
 
 foreach ($options as $key => $title) {
-    echo $title.': '.php_uname($key).PHP_EOL;
+    echo $title . ': ' . php_uname($key) . PHP_EOL;
 }

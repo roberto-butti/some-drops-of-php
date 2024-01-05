@@ -9,10 +9,10 @@ $array = [
 
 // SERIALIZE the initial array
 $string = serialize($array);
-echo 'Size after serialize : '.strlen($string).PHP_EOL;
+echo 'Size after serialize : ' . strlen($string) . PHP_EOL;
 // COMPRESS the serialized initial array
 $compressed = gzcompress($string);
-echo 'Size after compress  : '.strlen($compressed).PHP_EOL;
+echo 'Size after compress  : ' . strlen($compressed) . PHP_EOL;
 // UNCOMPRESS, the compressed string
 $serialized = gzuncompress($compressed);
 // UNSERIALIZE, and obtain the initial array

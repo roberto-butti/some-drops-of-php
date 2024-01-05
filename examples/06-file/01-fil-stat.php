@@ -16,5 +16,5 @@ $getinfo = function ($filename) {
     };
 };
 
-echo $getinfo(__FILE__).PHP_EOL;
-echo $getinfo(__DIR__).PHP_EOL;
+echo $getinfo(__FILE__) . PHP_EOL;
+echo $getinfo(__DIR__) . PHP_EOL;

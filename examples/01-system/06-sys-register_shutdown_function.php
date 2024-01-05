@@ -8,6 +8,6 @@ register_shutdown_function(
 
 $wantExit = true;
 if ($wantExit) {
-    exit('Good bye! (before shutdown)'.PHP_EOL);
+    exit('Good bye! (before shutdown)' . PHP_EOL);
 }
-echo 'This statement will never be executed'.PHP_EOL;
+echo 'This statement will never be executed' . PHP_EOL;
