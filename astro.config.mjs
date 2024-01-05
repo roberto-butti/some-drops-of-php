@@ -18,6 +18,13 @@ export default defineConfig({
 						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.png',
 					},
 				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'twitter:image',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.png',
+					},
+				},
 			],
 			customCss: [
 				'./src/styles/custom.css'
