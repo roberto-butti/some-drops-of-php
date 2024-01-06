@@ -61,4 +61,10 @@ These 3 operations cost less than the 2 operations (with higher cost because the
 - deleting the l (cost 1)
 So the total cost is 5.
 
+## Practical applications of Levenshtein distance
+
+I used the `levenshtein()` function when I implemented a command-line tool to locate a misspelled option/parameter and try to suggest the most similar valid option available. I would say that in general, it can be useful when you have a list of values and want to identify the one that most closely resembles a given input. Correcting a misspelled path compared to a list of valid paths might also be a good example.
+
+Additionally, it proves valuable in scenarios where a structure can be traced back and coded into a sequence of characters, akin to a simplified DNA comparison. Another application is in coding sequences of steps for a game using letters, allowing you to identify the most similar sequences.
+
 To sum up, Levenshtein's distance is a practical tool that helps to understand and measure how similar or different words are, making it useful in various PHP applications.
