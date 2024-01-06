@@ -15,14 +15,14 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.png',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.webp',
 					},
 				},
 				{
 					tag: 'meta',
 					attrs: {
 						property: 'twitter:image',
-						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.png',
+						content: 'https://raw.githubusercontent.com/roberto-butti/some-drops-of-php/main/public/header.webp',
 					},
 				},
 			],

@@ -1,7 +1,7 @@
 # Welcome to Some drops of PHP
 
 
-![Some drops of PHP](public/header.png)
+![Some drops of PHP](public/header.webp)
 
 ## The reason why
 This book collects some useful, unknown, underrated PHP functions or stuff discovered, used, and learned during PHP daily use.
