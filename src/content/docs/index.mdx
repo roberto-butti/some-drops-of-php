@@ -6,23 +6,14 @@ banner:
   content: |
     The PHP open-source eBook,
     <a href="https://github.com/roberto-butti/some-drops-of-php">feel free to contribute adding or reviewing content</a>
-hero:
-  tagline: The book collects some useful, unknown, underrated PHP functions discovered and learned while using PHP daily.
-  image:
-    file: ../../assets/cover-square.webp
-  actions:
-    - text: Read the book
-      link: /00-intro/00-intro
-      icon: right-arrow
-      variant: primary
-    - text: Sources on GitHub
-      link: https://github.com/roberto-butti/some-drops-of-php
-      icon: external
+
 ---
 
 import { CardGrid, Card } from '@astrojs/starlight/components';
 import AboutBlock from '../../components/about-block.astro'
+import Hero from '../../components/hero.astro'
 
+<Hero />
 <CardGrid >
 	<Card title="Open Source" icon="open-book">
 		This book is open source, meaning that both its content and the tools used for rendering the website are accessible. You can find it in [the GitHub repository](https://github.com/roberto-butti/some-drops-of-php).
