@@ -20,7 +20,25 @@ hero:
       icon: external
 ---
 
+import { CardGrid, Card } from '@astrojs/starlight/components';
 import AboutBlock from '../../components/about-block.astro'
+
+<CardGrid >
+	<Card title="Open Source" icon="open-book">
+		This book is open source, meaning that both its content and the tools used for rendering the website are accessible. You can find it in [the GitHub repository](https://github.com/roberto-butti/some-drops-of-php).
+	</Card>
+	<Card title="Learn PHP functions" icon="rocket">
+		Start reading the e-book for free and start learning the PHP language.
+    [Read the book](http://localhost:4321/00-intro/00-intro)
+	</Card>
+	<Card title="Collaborate" icon="document">
+		We deeply appreciate your willingness to contribute to the open-source book “Some Drops of PHP”. Your efforts make a significant impact on the PHP community, and we're grateful for your support.
+    [Collaborate](http://localhost:4321/00-intro/01-contributing/)
+	</Card>
+	<Card title="Join the Conversation" icon="puzzle">
+		Have questions or want to discuss your contributions? Join us on the [repository issue section](https://github.com/roberto-butti/some-drops-of-php/issues), where you can create issues but also create suggestions, and feature requests.
+	</Card>
+</CardGrid>
 
 <AboutBlock title="This book is about PHP">
 PHP is a versatile scripting language suitable for various applications beyond web development, including the creation of command-line tools and general-purpose scripting tasks.
