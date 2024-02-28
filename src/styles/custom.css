@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 body {
-    font-family: Montserrat;
+    font-family: Montserrat, Helvetica, sans-serif;
     font-size: large;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

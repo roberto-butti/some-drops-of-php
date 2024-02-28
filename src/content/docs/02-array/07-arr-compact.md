@@ -3,55 +3,60 @@ title: Creating array from variables
 description: creating an array from variables
 sidebar:
   label: Creating array from variables
+  badge:
+# ['note', 'danger', 'success', 'caution', 'tip', 'default']
+    text: Updated
+    variant: note
 ---
 
 ## Creating array from variables: `compact()`
 
-If you have variables like:
+If you have variables such as:
 
 ```php
 $name = "My name";
-$surname = "My surname";
+$lastname = "My lastname";
 ```
+and you need to create an array where the keys correspond to the variable names ("name" and "lastname") and the values correspond to the variable values, you can use the `compact()` function. This function is particularly useful when you have a method that requires variables to be passed in a compact format to another method. For instance, in controllers, you may use certain variables and then pass them as input values in an array to a template renderer.
 
-and you need to create an array where the keys are the name of the variables ("name" and "surname") with the values of the variable values use the `compact()` function. It is useful when in a method you are using variables that you need to pass to another method in a compact format. Typically in controllers you use some variables and then when you call the template render it can accept an array as a list of input values. For the above examples, after calling `compact()` function you will have:
+After calling the `compact()` function with the above examples, you will obtain:
 
 ```
 Array
 (
     [name] => My name
-    [surname] => My surname
+    [lastname] => My lastname
 )
 ```
 
-You can use compact function:
+Here an example using the `compact()` function:
 
 ```php
 $name = "My name";
-$surname = "My surname";
-$a = compact("name", "surname");
+$lastname = "My lastname";
+$a = compact("name", "lastname");
 print_r($a);
 /*
 Array
 (
     [name] => My name
-    [surname] => My surname
+    [lastname] => My lastname
 )
 */
 ```
 
-For the `compact()` function you can pass the name of variables as a string with multiple parameters. Or you can call compact with an array of variable names as strings (equivalent behaviour):
+You can use the `compact()` function by passing the names of variables as strings with multiple parameters. Alternatively, you can call `compact()` with an array of variable names as strings, which produces equivalent behavior:
 
 ```php
 $name = "My name";
-$surname = "My surname";
-$a = compact(["name", "surname"]);
+$lastname = "My lastname";
+$a = compact(["name", "lastname"]);
 print_r($a);
 /*
 Array
 (
     [name] => My name
-    [surname] => My surname
+    [lastname] => My lastname
 )
 */
 ```
