@@ -27,7 +27,7 @@ echo $string;
 // "Hi John, you are 25 years old."
 ```
 
-In this last example, with the ways shown, value ordering plays a crucial role in placeholder substitution. The first declared value `$name` is used to replace the first placeholder found in the string. The second declared value `$`age` is used to replace the second placeholder and so on.
+In this last example, with the ways shown, value ordering plays a crucial role in placeholder substitution. The first declared value `$name` is used to replace the first placeholder found in the string. The second declared value `$age` is used to replace the second placeholder and so on.
 
 There is the possibility of declaring placeholders with index:
 
