@@ -5,10 +5,9 @@ sidebar:
   label: About the eBook
 ---
 
-# Welcome to Some drops of PHP
+This book collects some useful, unknown, underrated PHP functions or stuff discovered, used, and learned during PHP's daily use.
 
 ## The reason why
-This book collects some useful, unknown, underrated PHP functions or stuff discovered, used, and learned during PHP's daily use.
 
 Using frameworks daily, sometimes the perception of the power of the language and the basic functionalities provided by the PHP core could be lost. I see that usually, I used to look at the framework documentation or look for a package in Packagist for the system, array, and string functions instead of using core functionalities provided by the language.
 
