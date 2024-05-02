@@ -33,7 +33,7 @@ In this case, you can use the third parameter of the `round()` function that all
 
 When using the `round()` function in PHP, you can specify the rounding mode by providing one of the following constants as the third parameter:
 
-- `PHP_ROUND_HALF_UP`: This mode rounds the number away from zero when it's halfway there. For example, 3.5 becomes 3, and -3.5 becomes -4.
+- `PHP_ROUND_HALF_UP`: This mode rounds the number away from zero when it's halfway there. For example, `3.5` becomes `3.0`, and `-3.5` becomes `-4.0`.
 
 ```php
 $number = 3.5;
@@ -41,7 +41,7 @@ $rounded = round($number, mode: PHP_ROUND_HALF_UP);
 // the result is 4.0
 ```
 
-- `PHP_ROUND_HALF_DOWN`: In this mode, the number is rounded towards zero when it's halfway there. So, 1.5 becomes 1, and -1.5 becomes -1.
+- `PHP_ROUND_HALF_DOWN`: In this mode, the number is rounded towards zero when it's halfway there. So, `1.5` becomes `1.0`, and `-1.5` becomes `-1.0`.
 
 
 ```php
@@ -50,7 +50,7 @@ $rounded = round($number, mode: PHP_ROUND_HALF_DOWN);
 // the result is 3.0
 ```
 
-- `PHP_ROUND_HALF_EVEN`: Here, the number is rounded towards the nearest **even** value when it's halfway there. This means that both 3.5 and 4.5 become 4.0.
+- `PHP_ROUND_HALF_EVEN`: Here, the number is rounded towards the nearest **even** value when it's halfway there. This means that both `3.5` and `4.5` become `4.0`.
 
 ```php
 $number = 3.5;
@@ -61,7 +61,7 @@ $rounded = round($number, mode: PHP_ROUND_HALF_EVEN);
 // the result is 4.0
 ```
 
-- `PHP_ROUND_HALF_ODD`: In this mode, the number is rounded towards the nearest **odd** value when it's halfway there. So, 3.5 becomes 1, and 2.5 becomes 3.
+- `PHP_ROUND_HALF_ODD`: In this mode, the number is rounded towards the nearest **odd** value when it's halfway there. So, `3.5` becomes `3.0`, and `2.5` becomes `3.0`.
 
 ```php
 $number = 3.5;
@@ -78,4 +78,4 @@ These modes provide flexibility in how numbers are rounded, allowing you to choo
 ## Negative precision
 
 As mentioned, the second parameter of the `round()` function is precision.
-When the precision parameter is negative, it defines the number of significant digits before the decimal point to which the number is rounded. For example, with a precision of -1, the number is rounded to the nearest multiple of ten (the tens place). So, 234.56 would become 230. With a precision of -2, it's rounded to the nearest multiple of one hundred (the hundreds place), making 234.56 become 200. Similarly, with a precision of -3, it's rounded to the nearest thousand (the thousands place), making 234.56 become 0.
+When the precision parameter is negative, it defines the number of significant digits before the decimal point to which the number is rounded. For example, with a precision of `-1`, the number is rounded to the nearest multiple of ten (the tens place). So, `234.56` would become `230`. With a precision of `-2`, it's rounded to the nearest multiple of one hundred (the hundreds place), making `234.56` become `200.0`. Similarly, with a precision of `-3`, it's rounded to the nearest thousand (the thousands place), making `234.56` become `0.0`.
