@@ -74,6 +74,22 @@ $rounded = round($number, mode: PHP_ROUND_HALF_ODD);
 
 These modes provide flexibility in how numbers are rounded, allowing you to choose the rounding behavior that best suits your specific needs.
 
+:::caution[Be careful]
+The potential errors that can occur when rounding floating-point numbers are typically referred to as rounding errors or accumulated rounding errors. Accumulated rounding errors occur when multiple rounding operations are performed sequentially, leading to a cumulative discrepancy between the exact mathematical result and the rounded values.
+In the provided example:
+
+```php
+$result = (1/3) + (1/3) + (1/3);
+// result 1.0
+$result = round(1/3,3) + round(1/3, 3) + round(1/3,3);
+// result 0.999
+```
+
+Each division result (`1/3`) is rounded to three decimal places, resulting in approximate values of `0.333`. When these rounded values are summed together, the accumulated rounding errors can lead to a final result that differs slightly from the exact mathematical result.
+
+In this case, the sum of the rounded values (`0.333` + `0.333` + `0.333`) might not precisely equal `1.0` due to the accumulated rounding errors.
+:::
+
 
 ## Negative precision
 
