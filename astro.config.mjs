@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+import tailwind from "@astrojs/tailwind";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://drops-of-php.hi-folks.dev/",
@@ -28,7 +30,7 @@ export default defineConfig({
           },
         },
       ],
-      customCss: ["./src/styles/custom.css"],
+      customCss: ["./src/styles/tailwind.css", "./src/styles/custom.css"],
       editLink: {
         baseUrl: "https://github.com/roberto-butti/some-drops-of-php/edit/main",
       },
@@ -38,42 +40,58 @@ export default defineConfig({
       sidebar: [
         {
           label: "📔 (0) Intro",
-          autogenerate: { directory: "00-intro" },
+          autogenerate: {
+            directory: "00-intro",
+          },
           collapsed: false,
         },
         {
           label: "🧑‍💻 (1) System",
-          autogenerate: { directory: "01-system" },
+          autogenerate: {
+            directory: "01-system",
+          },
           collapsed: true,
         },
         {
           label: "📚 (2) Array",
-          autogenerate: { directory: "02-array" },
+          autogenerate: {
+            directory: "02-array",
+          },
           collapsed: true,
         },
         {
           label: "🗄️ (3) Vars, Objects",
-          autogenerate: { directory: "03-vars" },
+          autogenerate: {
+            directory: "03-vars",
+          },
           collapsed: true,
         },
         {
           label: "🚲 (4) Functions",
-          autogenerate: { directory: "04-functions" },
+          autogenerate: {
+            directory: "04-functions",
+          },
           collapsed: true,
         },
         {
           label: "🧵 (5) Strings",
-          autogenerate: { directory: "05-string" },
+          autogenerate: {
+            directory: "05-string",
+          },
           collapsed: true,
         },
         {
           label: "📁 (6) Files",
-          autogenerate: { directory: "06-file" },
+          autogenerate: {
+            directory: "06-file",
+          },
           collapsed: true,
         },
         {
           label: "🔢 (7) Numbers",
-          autogenerate: { directory: "07-numbers" },
+          autogenerate: {
+            directory: "07-numbers",
+          },
           collapsed: true,
         },
         {
@@ -92,6 +110,10 @@ export default defineConfig({
           collapsed: true,
         },
       ],
+    }),
+    tailwind({
+      // Disable the default base styles:
+      applyBaseStyles: false,
     }),
   ],
 });
