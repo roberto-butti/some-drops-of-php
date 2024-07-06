@@ -69,3 +69,8 @@ $b = array_map(
 );
 print_r($b); // [2,4,6,8,10]
 ```
+
+
+### Wrap up
+
+Anonymous functions are a powerful feature in PHP that allows developers to create flexible and modular code. By enabling functions to be defined without a name and to capture variables from their surrounding scope, they offer a range of possibilities for more dynamic and maintainable programming.
