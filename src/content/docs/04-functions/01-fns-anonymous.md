@@ -3,9 +3,7 @@ title: Anonymous functions in PHP
 description: Master anonymous functions in PHP with this guide. Learn to use anonymous functions effectively through practical examples.
 sidebar:
   label: Anonymous functions
-head:
-    - tag: title
-      content:
+
 ---
 
 ## Anonymous functions
