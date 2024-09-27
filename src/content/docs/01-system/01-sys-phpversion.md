@@ -7,10 +7,9 @@ sidebar:
 
 ## Get used PHP version: `phpversion()`
 
-The `phpversion()` function retrieves the PHP version being
-executed by the current process. This information can be helpful for various
-purposes, such as checking compatibility with different versions or
-verifying the level of security patches applied.
+The `phpversion()` function retrieves the PHP version currently being executed by the current process.
+
+It's also useful for checking if a specific extension is installed and retrieving its version.
 
 ### Primary Use Cases
 
