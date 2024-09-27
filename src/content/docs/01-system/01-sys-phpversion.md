@@ -1,26 +1,27 @@
 ---
-title: Getting the PHP version
-description: Getting the PHP version via phpversion() function
+title: Getting the  version of PHP or extension
+description: Getting the PHP version and/or an extension version  via the `phpversion()` function
 sidebar:
-  label: PHP version
+  label: PHP/extension version
 ---
 
 ## Get used PHP version: `phpversion()`
 
 The `phpversion()` function retrieves the PHP version being
-executed. This information can be helpful for various
+executed by the current process. This information can be helpful for various
 purposes, such as checking compatibility with different versions or
 verifying the level of security patches applied.
 
 ### Primary Use Cases
 
-* Checking compatibility with different PHP versions
-* Verifying the level of security patches applied
+* Software Compatibility Checks
+* Error Reporting and Logging
+* Retrieving the Version of a Specific PHP Extension
 
 ## Syntax and Parameters
 
 ```php
-phpversion()
+$version = phpversion();
 ```
 
 Where:
@@ -30,41 +31,69 @@ Where:
 The return type is a string, representing the version of PHP being
 executed.
 
-### Example:
+### Example for retrieving the PHP version
 ```php
 echo phpversion();
 // Output: The current version of PHP (e.g., '8.3.10')
 ```
 
-## Use Cases
+### Example for retrieving the version of a specific extension
 
-### 1. Checking Compatibility with Different PHP Versions
-
-Let's say we have an application that relies on a specific PHP feature,
-but we want to make it compatible with different versions:
+With the `phpversion()` function, you can pass an optional argument to retrieve the version of a specific PHP extension.
 
 ```php
-$phpVersion = phpversion();
-if (version_compare($phpVersion, '8.0.0', '<')) {
-    // Apply compatibility fixes or workarounds for PHP 7.x versions
+$extension = "openswoole";
+phpversion($extension);
+// it returns a string like "22.1.2"
+```
+
+The **extension** parameter is optional and it is a string representing the name of the PHP extension whose version you want to retrieve. If provided, `phpversion()` returns the version of that extension. If the extension is not enabled, it returns `false`.
+
+```php
+$extension = "ext-not-exists";
+phpversion($extension);
+// it returns the boolean `false` value
+```
+
+
+
+## Use Cases
+
+### 1. Software Compatibility Checks
+
+When deploying software, it's essential to ensure compatibility with
+different PHP versions. You can use `phpversion()` to check the client's
+PHP version and adjust your application accordingly. Or you want to remember the user that is using a deprecated version of PHP that will be no more supported in the future.
+
+```php
+$current_version = phpversion();
+if ($current_version < '8.2') {
+    // Client has an outdated PHP version.
 } else {
-    // Use the available features and functionality
+    // Client has a compatible or newer PHP version.
 }
 ```
 
-### 2. Verifying Security Patches
+### 2. Error Reporting and Logging
 
-Suppose we have a critical application that requires specific security
-patches to be applied:
+To identify potential issues, you can log the PHP version used to execute
+your script.
 
 ```php
-$patchLevel = phpversion();
-if (strpos($patchLevel, '8.') !== false) {
-    // Apply additional security patches or fixes required for PHP 8.x
-versions
+$log_file = 'php_version.log';
+$log_message = 'PHP version: ' . phpversion() . "\n";
+file_put_contents($log_file, $log_message, FILE_APPEND);
+```
+
+### 3. Retrieving the Version of a Specific PHP Extension
+
+You can use `phpversion("extension-name")` to check the version of a particular extension. This is helpful for ensuring that the extension is enabled and is of the correct version for your application.
+```php
+$openswooleVersion = phpversion('openswoole');
+if ($openswooleVersion !== false) {
+    echo "OpenSwoole version: " . $openswooleVersion;
 } else {
-    // Perform a manual review of the patch level and apply necessary
-fixes
+    echo "OpenSwoole extension is not enabled.";
 }
 ```
 
@@ -80,7 +109,4 @@ potential issues.
 For more information on PHP versions and compatibility, see:
 
 * [PHP Documentation: PHP
-Versioning](https://www.php.net/manual/en/faq.version.php)
-* [W3Schools: PHP Version
-Comparison](https://www.w3schools.com/php/ref_func_version_compare.asp)
-
+Versioning](https://www.php.net/manual/en/function.phpversion.php)
