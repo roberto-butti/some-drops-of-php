@@ -11,13 +11,13 @@ The `phpversion()` function retrieves the PHP version currently being executed b
 
 It's also useful for checking if a specific extension is installed and retrieving its version.
 
-### Primary Use Cases
+### Primary use cases
 
-* Software Compatibility Checks
-* Error Reporting and Logging
-* Retrieving the Version of a Specific PHP Extension
+* Software compatibility checks
+* Error reporting and logging
+* Retrieving the version of a specific PHP extension
 
-## Syntax and Parameters
+## Syntax and parameters
 
 ```php
 $version = phpversion();
@@ -46,7 +46,7 @@ phpversion($extension);
 // it returns a string like "22.1.2"
 ```
 
-The **extension** parameter is optional and it is a string representing the name of the PHP extension whose version you want to retrieve. If provided, `phpversion()` returns the version of that extension. If the extension is not enabled, it returns `false`.
+The `extension` parameter is optional. It is a string representing the name of the PHP extension whose version you want to retrieve. If provided, `phpversion()` returns the version of that extension. If the extension is not enabled, it returns `false`.
 
 ```php
 $extension = "ext-not-exists";
@@ -58,7 +58,7 @@ phpversion($extension);
 
 ## Use Cases
 
-### 1. Software Compatibility Checks
+### 1. Software compatibility checks
 
 When deploying software, it's essential to ensure compatibility with
 different PHP versions. You can use `phpversion()` to check the client's
@@ -73,7 +73,7 @@ if ($current_version < '8.2') {
 }
 ```
 
-### 2. Error Reporting and Logging
+### 2. Error reporting and logging
 
 To identify potential issues, you can log the PHP version used to execute
 your script.
@@ -84,7 +84,7 @@ $log_message = 'PHP version: ' . phpversion() . "\n";
 file_put_contents($log_file, $log_message, FILE_APPEND);
 ```
 
-### 3. Retrieving the Version of a Specific PHP Extension
+### 3. Retrieving the version of a specific PHP extension
 
 You can use `phpversion("extension-name")` to check the version of a particular extension. This is helpful for ensuring that the extension is enabled and is of the correct version for your application.
 ```php
@@ -96,14 +96,14 @@ if ($openswooleVersion !== false) {
 }
 ```
 
-## Common Pitfalls
+## Common pitfalls
 
 * Be aware that `phpversion()` returns a string, which may not always be
 easy to parse or compare.
 * Use `version_compare()` to correctly compare PHP versions and avoid
 potential issues.
 
-## Additional Resources
+## Additional resources
 
 For more information on PHP versions and compatibility, see:
 
