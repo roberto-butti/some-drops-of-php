@@ -6,6 +6,7 @@ dist/
 
 # dependencies
 node_modules/
+vendor/
 
 # logs
 npm-debug.log*
@@ -14,7 +15,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # debugging files
-rector.php
 
 
 # environment variables

@@ -1,9 +1,9 @@
 <?php
 
 register_shutdown_function(
-    function () {
+    function (): void {
         echo 'Shutting down.', PHP_EOL;
-    }
+    },
 );
 
 $wantExit = true;

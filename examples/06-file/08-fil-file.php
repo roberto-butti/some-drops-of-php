@@ -11,11 +11,11 @@ $opts = [
     'http' => [
         'method' => "GET",
         'header' => "Accept-language: en\r\n" .
-            "Cookie: foo=bar\r\n"
-    ]
+            "Cookie: foo=bar\r\n",
+    ],
 ];
 $context = stream_context_create($opts);
 print_r(file(
     filename: 'https://cdn.wsform.com/wp-content/uploads/2020/06/color_web_safe.csv',
-    context: $context
+    context: $context,
 ));
