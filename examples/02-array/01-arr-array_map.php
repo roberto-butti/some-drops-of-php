@@ -53,7 +53,7 @@ $kmRunning = [102, 95, 101, 80, 86, 121, 114, 102, 96, 84, 95, 105];
 $totalKmsPerMonth = array_map(
     fn($bike, $run) => $bike + $run,
     $kmBiking,
-    $kmRunning
+    $kmRunning,
 );
 
 print_r($totalKmsPerMonth);
@@ -86,7 +86,7 @@ $totalKmsPerMonth = array_map(
         return $bike + $run;
     },
     $kmBiking,
-    $kmRunning
+    $kmRunning,
 );
 
 print_r($totalKmsPerMonth);

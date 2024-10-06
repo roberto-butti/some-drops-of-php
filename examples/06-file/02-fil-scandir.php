@@ -1,6 +1,6 @@
 <?php
 
-$printArray = function ($files) {
+$printArray = function ($files): void {
     foreach ($files as $filename) {
         echo $filename . PHP_EOL;
     }
@@ -28,6 +28,6 @@ $filesDetail = array_map(
     function ($item) {
         return [$item => stat(__DIR__ . '/' . $item)];
     },
-    $files
+    $files,
 );
 var_dump($filesDetail);

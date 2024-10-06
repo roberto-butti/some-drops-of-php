@@ -6,9 +6,9 @@ echo "Installing signal handler... (type ctrl+c)\n";
 
 pcntl_signal(
     SIGINT,
-    function ($signal) {
+    function ($signal): void {
         echo 'Hi, you sent SIGINT, -' . $signal . '-' . PHP_EOL;
-    }
+    },
 );
 
 sleep(100);
