@@ -4,9 +4,6 @@ description: We love Hacktoberfest and are excited to invite you to join our Hac
 
 sidebar:
   label: Hacktoberfest 2024
-  badge:
-    text: New
-    variant: tip
 banner:
   content: |
     The open-source eBook,
