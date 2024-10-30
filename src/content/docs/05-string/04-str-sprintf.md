@@ -7,7 +7,7 @@ sidebar:
 
 ## Using `sprintf()` function for formatting a string
 
-The `sprintf(`)` function helps create strings using a template structure.
+The `sprintf()` function helps create strings using a template structure.
 
 ```php
 $template = "Hi %s, how are you?";

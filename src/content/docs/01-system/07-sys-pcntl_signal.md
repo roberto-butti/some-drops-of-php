@@ -16,7 +16,7 @@ The first argument is the signal you want to detect.
 The `kill` command, and `CTRL+C` both send a `SIGINT` signal.
 The second argument is the custom function to be executed, when the script receives the signal.
 
->{quote} In order to make pcntl_signal work in the right way, use `declare(ticks=1);`
+> In order to make pcntl_signal work in the right way, use `declare(ticks=1);`
 
 ```php
 declare(ticks=1);
