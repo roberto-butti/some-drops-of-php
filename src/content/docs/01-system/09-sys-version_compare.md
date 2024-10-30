@@ -7,7 +7,7 @@ sidebar:
 
 ## Compare versions: `version_compare()`
 
-The PHP versioning system follows a scheme named _SemVer_. The version identifier is a string with 3 numbers. Every time a new version of PHP is released, the version identifier is increased. The version identifier is something like `MAJOR.`MINOR.PATCH`. Once a new release is created, the version is incremented following these rules:
+The PHP versioning system follows a scheme named _SemVer_. The version identifier is a string with 3 numbers. Every time a new version of PHP is released, the version identifier is increased. The version identifier is something like `MAJOR.MINOR.PATCH`. Once a new release is created, the version is incremented following these rules:
 
 - The MAJOR version is incremented when incompatible API changes happen;
 - The MINOR version is incremented when there are changes to functionality in a backward-compatible manner;
