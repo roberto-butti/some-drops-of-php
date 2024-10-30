@@ -32,4 +32,6 @@ This is because `microtime()` reads the current time from the clock.
 If you read the start time and the end time to calculate the difference you could see some inconsistency. For example, let's try to think about if the datetime is changed between readings (manually or software like ntp will update the clock, so the date time).
 
 
-> If you need to measure time like a stopwatch or timer, you should use another function `hrtime()`.
+:::tip
+If you need to measure time like a stopwatch or timer, you should use another function: `hrtime()`.
+:::
