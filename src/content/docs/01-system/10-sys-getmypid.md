@@ -13,7 +13,7 @@ In the _shell_, to retrieve the list of processes with the PID, you can use the 
 
 In a PHP script you can retrieve the current process identifier with `getmypid()`.
 
-It returns an integer of the identifier or `false` if an error occours.
+It returns an integer of the identifier or `false` if an error occurs.
 
 ```php
 

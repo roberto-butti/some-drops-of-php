@@ -53,7 +53,7 @@ The execution shows:
 ```
 
 ### The input parameter $mode
-If you call `getrusage()` with `1` as input parameter, it is shown the resource usege of children processes.
+If you call `getrusage()` with `1` as input parameter, it is shown the resource usage of children processes.
 If you call `getrusage(1)` and the process doesn't have any children, all values will be `0`:
 ```php
 // $mode 1
