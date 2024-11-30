@@ -5,7 +5,7 @@ sidebar:
   label: Validating alphabetic string
 ---
 
-## Validating string, alphabetics: `ctype_alpha()`
+## Validating alphabetic strings: `ctype_alpha()`
 When you need to validate strings, you can use one of the `ctype_...()` functions.
 
 The `ctype_alpha()` function returns `true` if the input string contains all alphabetic characters.

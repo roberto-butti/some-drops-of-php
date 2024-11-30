@@ -2,7 +2,7 @@
 title: Serializing a string
 description: Serializing a string in PHP
 sidebar:
-  label: Serlialize
+  label: Serialize
 ---
 ## Store objects or variables: `serialize()`
 In your PHP application, project or script you use object or arrays or variables to manage data.

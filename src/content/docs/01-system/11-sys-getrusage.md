@@ -62,7 +62,7 @@ foreach ($resources as $key => $value) {
     echo "=> " . $key . ": " . $value . PHP_EOL;
 }
 ```
-If you call `getrusage(1)` after having lanched a processes, you will see the resources used by the child process.
+If you call `getrusage(1)` after having launched a processes, you will see the resources used by the child process.
 In the example `exec('sleep 1')` it simulates the process creation.
 ```php
 // $mode 1 after executing an external process
