@@ -1,6 +1,6 @@
 ---
 title: Getting the current UNIX timestamp
-description: Getting the currenti UNIX timestamp via microtime() function
+description: Getting the current UNIX timestamp via microtime() function
 sidebar:
   label: Current timestamp
 ---

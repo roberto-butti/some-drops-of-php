@@ -1,6 +1,6 @@
 ---
 title: Getting environment variables
-description: Getting the environment variables via getenve() function
+description: Getting the environment variables via getenv() function
 sidebar:
   label: Environment variables
 ---

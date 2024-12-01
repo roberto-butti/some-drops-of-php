@@ -1,6 +1,6 @@
 <?php
 
-// Inital memory usage
+// Initial memory usage
 $memory = memory_get_usage();
 echo $memory . ' bytes ' . PHP_EOL;
 echo $memory / 1024 . ' kb ' . PHP_EOL;
