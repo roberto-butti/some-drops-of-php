@@ -3,10 +3,6 @@ title: Mapping an array
 description: applying a function to each element of an array
 sidebar:
   label: Mapping an array
-  badge:
-# ['note', 'danger', 'success', 'caution', 'tip', 'default']
-    text: Updated
-    variant: note
 ---
 
 ## Apply function to each array element: `array_map()`

@@ -1,8 +1,13 @@
 ---
 title: 'Counting Character Occurrences in a String with PHP'
+slug: "string/count-chars"
 description: "Learn how to use PHP's count_chars() function to analyze strings by counting character occurrences, identifying unique or unused characters, and more."
 sidebar:
   label: Character Frequencies
+  badge:
+# ['note', 'danger', 'success', 'caution', 'tip', 'default']
+    text: Updated
+    variant: note
 ---
 
 ## Counting characters via `count_chars()`

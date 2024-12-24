@@ -3,10 +3,6 @@ title: Creating array from variables
 description: creating an array from variables
 sidebar:
   label: Creating array from variables
-  badge:
-# ['note', 'danger', 'success', 'caution', 'tip', 'default']
-    text: Updated
-    variant: note
 ---
 
 ## Creating array from variables: `compact()`

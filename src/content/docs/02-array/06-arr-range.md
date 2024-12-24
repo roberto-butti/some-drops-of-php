@@ -3,10 +3,6 @@ title: Generating an array
 description: Creating an array with a sequence of values
 sidebar:
   label: Generating an array
-  badge:
-# ['note', 'danger', 'success', 'caution', 'tip', 'default']
-    text: Updated
-    variant: note
 ---
 
 ## Generate and fill a new array: `range()`
