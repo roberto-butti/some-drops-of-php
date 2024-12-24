@@ -5,7 +5,7 @@ sidebar:
   label: Character Frequencies
 ---
 
-# Counting characters via `count_chars()`
+## Counting characters via `count_chars()`
 
 The `count_chars()` function in PHP analyzes a given string and counts the occurrences of each character (including whitespace and special characters). The function's behavior can be customized using the `mode` parameter, which determines the type of data returned, such as character counts, unique characters, or unused characters.
 
