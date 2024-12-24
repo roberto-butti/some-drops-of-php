@@ -1,10 +1,13 @@
 <?php
 
 // Input string
-$text = "Hello, World!";
+$text = "Hi Folks! We love PHP! PHP is amazing!";
+
 
 // Get character frequency
 $charCount = count_chars($text, 1);
+
+print_r($charCount);
 
 echo "Character frequency in '$text':" . PHP_EOL;
 foreach ($charCount as $char => $count) {
