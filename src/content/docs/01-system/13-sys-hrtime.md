@@ -44,6 +44,6 @@ $timeInSeconds = $time / 1_000_000_000;
 // or in a shorter form:
 $timeInSeconds = $time / 1e+9;
 
-echo "Exection time in seconds: " . $timeInSeconds . PHP_EOL;
+echo "Execution time in seconds: " . $timeInSeconds . PHP_EOL;
 
 ```

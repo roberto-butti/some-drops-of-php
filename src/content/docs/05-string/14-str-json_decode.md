@@ -35,7 +35,7 @@ Flag allowed are:
 | JSON_BIGINT_AS_STRING        | it decodes large integers as their original string value instead of float |
 | JSON_OBJECT_AS_ARRAY         | It decodes JSON objects as PHP array                         |
 | JSON_INVALID_UTF8_IGNORE     | It ignores invalid UTF-8 characters                          |
-| JSON_INVALID_UTF8_SUBSTITUTE | It converts invalid UTF-8 characters to the Unicode characher "replacement character" \0xfffd |
+| JSON_INVALID_UTF8_SUBSTITUTE | It converts invalid UTF-8 characters to the Unicode character "replacement character" \0xfffd |
 | JSON_THROW_ON_ERROR          | It throws JsonException if an error occurs                   |
 
 ### Catching errors in parsing

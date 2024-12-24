@@ -46,7 +46,7 @@ echo sprintf("*%'08d*", 512) . PHP_EOL; // *00000512*
 echo sprintf('*%2d*', 512) . PHP_EOL; // *512*
 // align left with spaces
 echo sprintf('*%-8d*', 512) . PHP_EOL; // *512     *
-// take sencond values with 2$
+// take second values with 2$
 echo sprintf('*%2$d*', 512, 1024) . PHP_EOL; // *1024*
 
 // FLOATS

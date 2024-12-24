@@ -112,8 +112,8 @@ echo sprintf("*%2s*", "Something");
 If you want to force and truncate the result string, you can use the dot notation:
 
 ```php
-echo sprintf("*%2.3s*", "Something");
-//*Som*
+echo sprintf("*%2.4s*", "Something");
+//*Some*
 ```
 
 ### Numbers (integers)

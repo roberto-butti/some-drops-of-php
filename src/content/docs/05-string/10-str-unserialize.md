@@ -2,7 +2,7 @@
 title: Unserializing a string
 description: Unserializing a string in PHP
 sidebar:
-  label: Unserlialize
+  label: Unserialize
 ---
 
 ## Retrieve saved objects or variables: `unserialize()`

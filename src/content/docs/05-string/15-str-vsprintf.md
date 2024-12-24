@@ -6,7 +6,7 @@ sidebar:
 ---
 
 ## Format a string with an array: vsprintf()
-The function *vsprinf()* is similar to *sprintf()*, the difference is that  vsprintf accepts an array of arguments, rather than a variable number of arguments (sprintf).
+The function *vsprintf()* is similar to *sprintf()*, the difference is that  vsprintf accepts an array of arguments, rather than a variable number of arguments (sprintf).
 
 ```php
 $parameters = ['John', 25];

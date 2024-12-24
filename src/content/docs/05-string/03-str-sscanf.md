@@ -25,7 +25,7 @@ An example is : "978-0-596-52068-7"
 If you want to parse the ISBN code and extract the parts you can use the `sscanf()` function. The `sscanf()` function has at least 2 parameters:
 
 - the first parameter is the string to parse ("978-0-596-52068-7")
-- the second parameter is the pattern, composed with some placeholders. For example with %d you can decalre a digit. In the case of isbn you can specify: `"%d-%d-%d-%d-%d"` that it means : a number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char.
+- the second parameter is the pattern, composed with some placeholders. For example with %d you can declare a digit. In the case of isbn you can specify: `"%d-%d-%d-%d-%d"` that it means : a number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char, another number followed by the `-` char.
 
 ```php
 $isbn = "978-0-596-52068-7";

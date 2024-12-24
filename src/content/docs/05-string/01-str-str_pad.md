@@ -17,7 +17,7 @@ echo str_pad("Hello", 10) . "-";
 
 The default is to pad with blank spaces `" "` at the end of the original string.
 
-If you need to change the default behaviour you have the third parameter to define the char for padding.
+If you need to change the default behavior you have the third parameter to define the char for padding.
 
 ```php
 echo str_pad("Hello", 10, "+");
