@@ -6,7 +6,7 @@ sidebar:
 ---
 
 ## Padding strings: `str_pad()`
- With `str_pad()` function you can pad (fill with some characters) a string.
+ With the `str_pad()` function, you can pad (fill with some characters) a string.
 
 To pad a string with spaces until it reaches the length of ten chars:
 
