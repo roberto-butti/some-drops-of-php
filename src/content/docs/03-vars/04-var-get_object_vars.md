@@ -6,7 +6,7 @@ sidebar:
 ---
 
 ## Export object properties as array: `get_object_vars()`
- The function `get_object_vars()` extracts properties or attributes from an object and creates an array with attribute names as keys and attribute values as values.
+The function `get_object_vars()` extracts properties or attributes from an object and creates an array with attribute names as keys and attribute values as values.
 
 For example, if you have an object with 4 properties
 
