@@ -6,7 +6,7 @@ sidebar:
 ---
 
 ## Parse string: `sscanf()`
- With `sscanf()` function you can parse a string following a well known pattern.
+With `sscanf()` function you can parse a string following a well known pattern.
 
 For example, think about the ISBN code. The ISBN code is the code identifier for books, it is 13 chars long and it is defined as:
 
