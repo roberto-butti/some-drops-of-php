@@ -4,11 +4,12 @@ description: We love Hacktoberfest and are excited to invite you to join our Hac
 
 sidebar:
   label: Hacktoberfest 2024
+  order: 2
 banner:
   content: |
     The open-source eBook,
     <a href="https://github.com/roberto-butti/some-drops-of-php">feel free to contribute adding or reviewing content</a>
-
+slug: hacktoberfest
 ---
 
 Hello, amazing contributors! 👋

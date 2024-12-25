@@ -5,6 +5,7 @@ description: We are excited to invite you to join our repository and contribute 
 
 sidebar:
   label: How to contribute
+  order: 1
   badge:
     text: Welcome
     variant: tip
@@ -12,6 +13,8 @@ banner:
   content: |
     The open-source eBook,
     <a href="https://github.com/roberto-butti/some-drops-of-php">feel free to contribute by adding or reviewing content</a>
+slug: contributing
+
 ---
 
 Hello amazing contributors! 👋

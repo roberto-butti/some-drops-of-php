@@ -3,6 +3,9 @@ title: Some drops of PHP
 description: This HTML eBook collects some useful, unknown, underrated PHP functions or stuff discovered, used, and learned during PHP daily use.
 sidebar:
   label: About the eBook
+  order: 0
+slug: intro
+
 ---
 
 This book collects some useful, unknown, underrated PHP functions or stuff discovered, used, and learned during PHP's daily use.
