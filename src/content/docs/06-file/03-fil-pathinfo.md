@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Split filename infos: `pathinfo()`
+
 The function `pathinfo()` is useful when you have a filename and you want to obtain:
 
 - `dirname`: the directory

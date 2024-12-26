@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Get memory usage in bytes: `memory_get_usage()`
+
 Sometimes you need to calculate or track the memory used by your running script.
 
 The `memory_get_usage()` function has a boolean parameter.

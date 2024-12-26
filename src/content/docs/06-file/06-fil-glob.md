@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Find files that match a pattern: `glob()`
+
 If you need to retrieve all filenames that match a pattern you can use the `glob()` function.
 
 For example, a pattern can be:

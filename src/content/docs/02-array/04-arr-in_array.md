@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Check if an element is included in the array:  `in_array()`
+
 The `in_array()` function returns a boolean , `true` if the element value is in the array (not as the key), or `false` if the element is not present.
 
 
@@ -18,6 +19,7 @@ $inArray = in_array( $elementToFind, $array); // the $elementToFind is in the $a
 ```
 
 ### Strict comparison
+
 By default the behavior is to perform a "loose" comparison.
 It means true and 1 are considered as "equals".
 Why? PHP
@@ -31,6 +33,7 @@ is the same when you perform a loose comparisons with `==`, for example: `(true 
 | true  | "Something" | false             | true                 |
 
 For example
+
 ```php
 $array = array(
     true,
@@ -49,6 +52,7 @@ in_array(array(), $array); // true, because the second element false
 ```
 
 ### Case Sensitive
+
 The `in_array()` function is case sensitive which means `"My Test"` and `"my tesT"` are different due to the case of the first character of each string and the last character.
 
 One way to obtain a case insensitive comparison is to use `strtolower()` "for each element of the array".

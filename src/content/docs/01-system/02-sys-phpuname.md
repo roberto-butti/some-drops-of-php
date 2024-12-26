@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Display OS information: `php_uname()`
+
 Display information about the operating system.
 
 :::tip[Did you know?]
@@ -14,6 +15,7 @@ Display information about the operating system.
 
 With `php_uname()` you can retrieve operating system information in a PHP script.
 The function has a parameter `mode`, that allows you to define which information you want returned:
+
 - s : operating system name;
 - n : the host name;
 - r : the release name;
@@ -22,10 +24,13 @@ The function has a parameter `mode`, that allows you to define which information
 - a : all information above.
 
 You can use:
+
 ```php
 $operating_system = php_uname("s");
 ```
+
 Or you can walk through all options available:
+
 ```php
 $options =  [
   "s" => "Operating System",

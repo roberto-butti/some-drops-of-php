@@ -169,7 +169,9 @@ If you wish to customize the filler characters, substituting the default space c
 echo sprintf("*%-'_8d*", 512);
 //*512_____*
 ```
+
 in detail explaining all the characters `%-'_8d`:
+
 - `%`: here, it starts a placeholder;
 - `-`: append the filler character at the end of the value;
 - `'`: use the custom character filler;

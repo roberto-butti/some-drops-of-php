@@ -53,8 +53,10 @@ The execution shows:
 ```
 
 ### The input parameter $mode
+
 If you call `getrusage()` with `1` as input parameter, it is shown the resource usage of children processes.
 If you call `getrusage(1)` and the process doesn't have any children, all values will be `0`:
+
 ```php
 // $mode 1
 $resources = getrusage(1);
@@ -62,8 +64,10 @@ foreach ($resources as $key => $value) {
     echo "=> " . $key . ": " . $value . PHP_EOL;
 }
 ```
+
 If you call `getrusage(1)` after having launched a processes, you will see the resources used by the child process.
 In the example `exec('sleep 1')` it simulates the process creation.
+
 ```php
 // $mode 1 after executing an external process
 exec('sleep 1');

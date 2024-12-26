@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Compress content: `gzcompress()`
+
 If you have some content in string format you can try to save space (in terms of bytes) compressing it.
 
 For example, after performing serializing array or a big object you may want to compress the string obtained to save space.

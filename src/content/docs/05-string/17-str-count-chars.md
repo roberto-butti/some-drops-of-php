@@ -21,7 +21,7 @@ The `count_chars()` function in PHP analyzes a given string and counts the occur
 count_chars(string $string, int $mode = 0): array|string
 ```
 
-### Parameters:
+### Parameters
 
 - `string` (required): The input string to be analyzed.
 - `mode` (optional): An integer that determines the return value format. The default is 0.
@@ -33,7 +33,7 @@ count_chars(string $string, int $mode = 0): array|string
 
 With the default `mode` (`0`), the function returns a list of all characters and their frequencies, including characters with a frequency of `0`.
 
-### Return value:
+### Return value
 
 The function returns an array or a string depending on the `mode` parameter.
 

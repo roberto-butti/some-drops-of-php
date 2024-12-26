@@ -9,6 +9,7 @@ sidebar:
 
 If you have a variable and you need to detect the type ("string", "integer", "boolean", ...) you can use the `gettype()` function.
 It returns a string with the name of the type.
+
 ```php
 // gettype of 1 is an integer
 echo gettype(1) . PHP_EOL; // "integer"

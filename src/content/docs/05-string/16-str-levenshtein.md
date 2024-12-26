@@ -50,13 +50,16 @@ For example:
 levenshtein("hello", "halo", replacement_cost: 4)
 // 3
 ~~~
+
 The minimum total cost is calculated with the operations:
+
 - deleting the e (cost 1);
 - adding the a (cost 1);
 - deleting the l (cost 1);
 So the total cost is 3.
 
 These 3 operations cost less than the 2 operations (with higher cost because the replacement cost is set to 4):
+
 - replacing e with a (cost 4);
 - deleting the l (cost 1)
 So the total cost is 5.

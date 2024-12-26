@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Uncompress content: `gzuncompress()`
+
 To uncompress content/string previously compressed with `gzcompress()` you can use `gzuncompress()` function.
 
 After that, you will obtain the initial string.

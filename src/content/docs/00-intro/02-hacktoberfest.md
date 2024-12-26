@@ -47,7 +47,7 @@ For more detailed instructions, please check our [Contribution Guidelines](https
 
 Have questions or want to discuss your contributions? Join us in the repository issue section, where you can create issues, suggestions, and feature requests.
 
-## Say Thank You!
+## Say Thank You
 
 We deeply appreciate your willingness to contribute to the open-source book "Some Drops of PHP". Your efforts significantly impact the PHP community, and we're grateful for your support.
 

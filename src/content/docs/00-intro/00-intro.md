@@ -32,7 +32,7 @@ So, if you have any feedback, or you want to suggest some corrections, feel free
 
 This book is available for download for free here: https://github.com/roberto-butti/some-drops-of-php/
 
-### Thanks to...
+### Thanks to
 
 Thanks to all the Open Source community.
 
@@ -41,6 +41,7 @@ Thanks to AstroBuild community for Starlight.
 Thanks to all the contributors https://github.com/roberto-butti/some-drops-of-php/graphs/contributors.
 
 ### License
+
 "Some drops of PHP" (c) by Roberto Butti
 
 "Some drops of PHP" is licensed under a
