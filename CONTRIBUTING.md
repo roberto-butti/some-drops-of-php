@@ -17,7 +17,7 @@ The functions are grouped into topics:
 Each function is explained with the description, and examples in markdown files in the `src/content/docs` directory.
 
 ## The file name convention
-We have all the Markdown files in the `src/content/docs` directory where you can find the folders for each topic (`00-intro`, `01-system`, `02-array`, etc.
+We have all the Markdown files in the `src/content/docs` directory where you can find the folders for each topic (`00-intro`, `01-system`, `02-array`, etc.)
 Each topic ( Intro, System, Array) has a specific folder with the format
 
 - 2 digits (00 , 01) as topic identifier (progressive number)
