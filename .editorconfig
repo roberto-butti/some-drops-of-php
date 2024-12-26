@@ -15,3 +15,7 @@ eclint_block_comment_end = */
 
 [*.md]
 trim_trailing_whitespace = false
+
+[{Makefile,**.mk}]
+# Use tabs for indentation (Makefile require tabs)
+indent_style = tab
