@@ -6,6 +6,7 @@
 LYCHEE_CMD = lychee
 URL = https://drops-of-php.hi-folks.dev/
 URL_LOCAL = http://127.0.0.1:4321/
+MARKDOWN_LINT = markdownlint
 
 # Default target
 .PHONY: all
@@ -19,6 +20,7 @@ help:
 	@echo "Available targets:"
 	@echo "  run-url       - Run links checker for $(URL)"
 	@echo "  run-url-local - Run links checker for $(URL_LOCAL)"
+	@echo "  run-md-lint   - Run Markdown checker"
 	@echo "  check         - Check if the needed tools are installed"
 	@echo "  clean         - Clean temporary files if any"
 	@echo "  help          - Display this help message"
@@ -26,24 +28,36 @@ help:
 	@echo "To launch links checker, run: make run-url"
 
 # Run target to launch lychee with the specified URL
-.PHONY: run
+.PHONY: run-url
 run-url:
 	@echo "Running lychee on URL: $(URL)"
 	$(LYCHEE_CMD) $(URL)
+
+.PHONY: run-url-local
 run-url-local:
 	@echo "Running lychee on URL: $(URL_LOCAL)"
 	$(LYCHEE_CMD) $(URL_LOCAL)
+
+.PHONY: run-md-lint
+run-md-lint:
+	@echo "Running Markdown lint checker $(MARKDOWN_LINT)"
+	$(MARKDOWN_LINT) --config markdown-lint.json src/content/docs/**/*.md
 
 # Check to ensure lychee is available
 .PHONY: check
 check:
 	@echo "Checking if lychee is installed..."
 	@if ! command -v $(LYCHEE_CMD) > /dev/null; then \
-		echo "Lychee not found. Installing..."; \
+		echo "  🚫 Lychee not found. You should install it."; \
 	else \
-		echo "Lychee is already installed."; \
+		echo "  ✅ Lychee is already installed."; \
 	fi
-
+	@echo "Checking if Markdown Linter is installed..."
+	@if ! command -v $(MARKDOWN_LINT) > /dev/null; then \
+		echo "  🚫 Markdown linter not found. You should install it."; \
+	else \
+		echo "  ✅ Markdown linter is already installed."; \
+	fi
 # Clean target (useful if temporary files are created in the future)
 .PHONY: clean
 clean:

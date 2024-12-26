@@ -50,7 +50,7 @@ For more detailed instructions, please check our [Contribution Guidelines](https
 
 Have questions or want to discuss your contributions? Join us on the [repository issue section](https://github.com/roberto-butti/some-drops-of-php/issues), where you can create issues but also create suggestions, and feature requests.
 
-## Thank You!
+## Thank You
 
 We deeply appreciate your willingness to contribute to the open-source book "Some Drops of PHP". Your efforts make a significant impact on the PHP community, and we're grateful for your support.
 

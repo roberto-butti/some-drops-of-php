@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## The Fingerprint of a File: `md5_file()`
+
 The `md5_file()` function calculates the md5 hash of a given file (the fingerprint).
 
 The md5 hash is a string with a 32-character hexadecimal number.

@@ -14,6 +14,7 @@ A monotonic clock is a time source that won't ever jump forward or backward (due
 When you need to calculate the elapsed time between two points you will need to save the start time and the end time to calculate the difference. The elapsed time should not be affected by external behavior like time modification by an external software (NTP) or time adjustment.
 
 The `hrtime()` returns an array of two integers:
+
 - seconds (first element at index `0`)
 - nanoseconds (second element at index `1`)
 

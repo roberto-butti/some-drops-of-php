@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## File information: `stat()`
+
 With `stat()` you can retrieve information and statistics about a file.
 
 The parameter is the filename and it returns an associative array with some information:

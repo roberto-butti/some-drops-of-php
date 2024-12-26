@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Validating string, digits: `ctype_digit()`
+
 When you need to validate a string that contains digits, the function `ctype_digit()` returns true if the input string contains only digits:
 
 ```php

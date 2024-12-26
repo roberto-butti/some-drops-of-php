@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Read dir: `readdir()`
+
 If you need to parse a directory: list all files, retrieve all files (including hidden files) etc, you can use the `readdir()` function.
 
 NOTE:

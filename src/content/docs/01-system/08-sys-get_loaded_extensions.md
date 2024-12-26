@@ -24,12 +24,14 @@ The availability of these modules depend on how the PHP engine was compiled and 
 
 To know which modules are available, the `get_loaded_extensions()` function exists.
 It returns an array with the names of the modules:
+
 ```php
 $extensions = get_loaded_extensions();
 foreach ($extensions as $key => $extension) {
     echo $extension . PHP_EOL;
 }
 ```
+
 To obtain only Zend extensions, set `true` as a parameter. For example, you could obtain something like `Xdebug` and `Zend OPcache`:
 
 ```php

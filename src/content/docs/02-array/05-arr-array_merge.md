@@ -17,7 +17,9 @@ $array_2 = [3,4,5,6];
 
 print_r(array_merge($array_1, $array_2));
 ```
+
 The result is an array with 7 elements with keys that start from 0:
+
 ```
 Array
 (

@@ -13,6 +13,7 @@ If you have variables such as:
 $name = "My name";
 $lastname = "My lastname";
 ```
+
 and you need to create an array where the keys correspond to the variable names ("name" and "lastname") and the values correspond to the variable values, you can use the `compact()` function. This function is particularly useful when you have a method that requires variables to be passed in a compact format to another method. For instance, in controllers, you may use certain variables and then pass them as input values in an array to a template renderer.
 
 After calling the `compact()` function with the above examples, you will obtain:

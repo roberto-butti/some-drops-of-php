@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Retrieve saved objects or variables: `unserialize()`
+
 If you need to retrieve an object or an array or a variable previously saved with `serialize()` function, you can use `unserialize()`. It takes a string as input and tries to convert it in a usable variable:
 
 ```php

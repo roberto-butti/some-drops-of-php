@@ -25,12 +25,13 @@ $version = phpversion();
 
 Where:
 
-- `phpversion()`: The function to retrieve the PHP version.
+* `phpversion()`: The function to retrieve the PHP version.
 
 The return type is a string, representing the version of PHP being
 executed.
 
 ### Example for retrieving the PHP version
+
 ```php
 echo phpversion();
 // Output: The current version of PHP (e.g., '8.3.10')
@@ -87,6 +88,7 @@ file_put_contents($log_file, $log_message, FILE_APPEND);
 ### 3. Retrieving the version of a specific PHP extension
 
 You can use `phpversion("extension-name")` to check the version of a particular extension. This is helpful for ensuring that the extension is enabled and is of the correct version for your application.
+
 ```php
 $openswooleVersion = phpversion('openswoole');
 if ($openswooleVersion !== false) {

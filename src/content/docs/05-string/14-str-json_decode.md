@@ -6,26 +6,34 @@ sidebar:
 ---
 
 ## From JSON string to PHP object: `json_decode()`
+
 If you have a string (loaded from a file, or retrieved by a API call) that is in JSON format, you can parse the string and transform it in an associative array or in an object.
 
 > JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
 
 The function `json_decode()` has one mandatory parameter the JSON **string** and returns the object by default (playing with 2 other optional parameters you can obtain the associative array).
 If you have a JSON string that represents an object with name and age attributes:
+
 ```php
 $string = '{"name":"My Name","age":25}';
 ```
+
 If you want to obtain a object:
+
 ```php
 $obj = json_decode($string);
 ```
+
 if you want to obtain an associative array:
+
 ```php
 $obj = json_decode($string, true);
 ```
+
 With the second parameter you can manage the type of the output, use `false` if you want an object, use `true` if you want an associative array.
 
 ### Flags
+
 You have a third parameter `flags`.
 With Flags parameter you can control some behavior of the parsing process.
 Flag allowed are:

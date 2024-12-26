@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Create a Directory: `mkdir()`
+
 If you need to create a directory, you can use the `mkdir()` function.
 
 The `mkdir()` function has one mandatory parameter, the name of the directory you want to create:

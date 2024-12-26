@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Delete characters: `trim()`
+
 With `trim()` function you can delete one or more characters from the beginning and end of a string.
 
 Usually, the `trim()` function is intended as stripping blank space, in this case you can delete any characters.

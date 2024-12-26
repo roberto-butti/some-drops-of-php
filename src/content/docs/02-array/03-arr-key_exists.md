@@ -20,6 +20,7 @@ $exists = key_exists(2, $arr); // false
 ```
 
 For an associative array
+
 ```php
 $arr = ["a" => "first one", "b" => "second one"];
 $exists = key_exists("a", $arr); // true

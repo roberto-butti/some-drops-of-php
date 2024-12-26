@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Read file content: `file()`
+
 If you want to be able to read a file, you can use the `file()` function. It puts the file contents into an array so you can work with it line by line or as a list.
 Assuming you have a list of countries in a text `(.txt)` file and you need to display the list, you can use the `file()` function to read the file and convert it to an array.
 

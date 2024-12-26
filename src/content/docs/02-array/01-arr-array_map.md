@@ -6,6 +6,7 @@ sidebar:
 ---
 
 ## Apply function to each array element: `array_map()`
+
 If you wish to execute a specific logic (a function) on every element within an array without resorting to manual iteration, the `array_map()` function provides a convenient solution.
 This function facilitates the application of a designated function to each element of the array, resulting in the generation of a new array with the modified elements, while preserving the original array's length.
 
@@ -34,6 +35,7 @@ As a result, the `array_map()` function generates a new array `$b` containing 5 
 
 
 The input array `$a`:
+
 ```
 Array
 (
@@ -46,6 +48,7 @@ Array
 ```
 
 The output array `$b`:
+
 ```
 Array
 (
