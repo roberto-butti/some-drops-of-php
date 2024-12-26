@@ -8,5 +8,10 @@
   "no-inline-html": false,
   "no-bare-urls": true,
   "fenced-code-language": true,
+  "code-fence-style": {
+    "style": "backtick"
+  },
+
+
   "first-line-h1": false
 }
