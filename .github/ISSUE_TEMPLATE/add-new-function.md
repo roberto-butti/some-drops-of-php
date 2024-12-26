@@ -13,9 +13,9 @@ The instructions about defining the file's name are documented in the `CONTRIBUT
 
 
 ## Description
-Function name: example `phpversion()`
+Function name: `phpversion()`
 Function description: ...
-File name: example `src/content/docs/01-system/01-sys-phpversion.md`
+File name: `src/content/docs/01-system/01-sys-phpversion.md`
 
 ## Checklist
 - [ ] create the file with the proper name
