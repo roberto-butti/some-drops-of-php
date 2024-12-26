@@ -36,7 +36,7 @@ As a result, the `array_map()` function generates a new array `$b` containing 5 
 
 The input array `$a`:
 
-```
+```text
 Array
 (
     [0] => 1
@@ -49,7 +49,7 @@ Array
 
 The output array `$b`:
 
-```
+```text
 Array
 (
     [0] => 1

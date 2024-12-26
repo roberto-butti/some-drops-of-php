@@ -162,6 +162,6 @@ $a = range(1,10,-2);
 
 Will raise the `ValueError` exception:
 
-```
-ValueError  range(): Argument #3 ($step) must be greater than 0 for increasing ranges.
+```text
+ValueError range(): Argument #3 ($step) must be greater than 0 for increasing ranges.
 ```

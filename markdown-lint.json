@@ -1,5 +1,5 @@
 {
-  "comment": "Relaxed rules",
+  "comment": "Custom rules",
 
   "default": true,
   "whitespace": false,
@@ -7,6 +7,6 @@
   "ul-indent": false,
   "no-inline-html": false,
   "no-bare-urls": true,
-  "fenced-code-language": false,
+  "fenced-code-language": true,
   "first-line-h1": false
 }

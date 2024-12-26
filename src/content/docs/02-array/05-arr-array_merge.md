@@ -20,7 +20,7 @@ print_r(array_merge($array_1, $array_2));
 
 The result is an array with 7 elements with keys that start from 0:
 
-```
+```text
 Array
 (
     [0] => 1
@@ -49,7 +49,7 @@ print_r(array_merge($array_1, $array_2));
 
 The result is an array with 7 elements with new keys:
 
-```
+```text
 Array
 (
     [0] => three, array 1
@@ -75,7 +75,7 @@ print_r(array_merge($array_1, $array_2));
 
 Take a look at what happens to the ("three" => 3) element of the first array and the ("three" => "three") element of the second array. Because of the "collision" ("three" was used as a key twice), only the value associated with the last "three" is preserved:
 
-```
+```text
 Array
 (
     [one] => 1

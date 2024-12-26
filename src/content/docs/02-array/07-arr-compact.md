@@ -18,7 +18,7 @@ and you need to create an array where the keys correspond to the variable names 
 
 After calling the `compact()` function with the above examples, you will obtain:
 
-```
+```text
 Array
 (
     [name] => My name
