@@ -53,15 +53,16 @@ If you want to read and browse the HTML eBook and see your changes in realtime w
 - run the local server via `bun run dev`
 
 If you want to build the HTML files, you can run the following command:
-~~~
+
+```shell
 bun run build
-~~~
+```
 
 If you want to see the preview of the built files you can run the following command:
 
-~~~
+```shell
 bun run preview
-~~~
+```
 
 ## Submit ideas or feature requests
 
@@ -87,7 +88,8 @@ Each chapter in this book focuses on a single PHP function or method. The goal i
 The frontmatter section should be placed at the beginning of the markdown file and enclosed between triple dashes (---). It provides essential metadata about the chapter.
 
 Example for mandatory fields:
-```
+
+```yaml
 ---
 title: 'Getting the PHP version'
 description: 'Getting the PHP version via phpversion() function'
@@ -95,6 +97,7 @@ sidebar:
   label: PHP version
 ---
 ```
+
 Where:
 - `title`: The feature implemented via the function
 - `description`: A brief overview of what the function does.
