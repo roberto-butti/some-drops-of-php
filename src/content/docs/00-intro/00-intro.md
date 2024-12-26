@@ -14,7 +14,7 @@ This book collects some useful, unknown, underrated PHP functions or stuff disco
 
 Using frameworks daily, sometimes the perception of the power of the language and the basic functionalities provided by the PHP core could be lost. I see that usually, I used to look at the framework documentation or look for a package in Packagist for the system, array, and string functions instead of using core functionalities provided by the language.
 
-While I wrote this book, I also wrote some scripts to better understand the behavior of the functions. You can find these examples here: https://github.com/roberto-butti/some-drops-of-php in the _examples_ directory.
+While I wrote this book, I also wrote some scripts to better understand the behavior of the functions. You can find these examples here: <https://github.com/roberto-butti/some-drops-of-php> in the _examples_ directory.
 
 ### Continuous release
 
@@ -26,11 +26,11 @@ I was thinking of printing this book, but I think that is not so eco-friendly an
 The book is a Work in Progress. If you notice any errors or believe that a new function should be covered, feel free to open an issue [here](https://github.com/roberto-butti/some-drops-of-php/issues).
 :::
 
-So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: https://github.com/roberto-butti/some-drops-of-php/issues
+So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: <https://github.com/roberto-butti/some-drops-of-php/issues>
 
 ### Where to find this book
 
-This book is available for download for free here: https://github.com/roberto-butti/some-drops-of-php/
+This book is available for download for free here: <https://github.com/roberto-butti/some-drops-of-php/>
 
 ### Thanks to
 
@@ -38,7 +38,7 @@ Thanks to all the Open Source community.
 
 Thanks to AstroBuild community for Starlight.
 
-Thanks to all the contributors https://github.com/roberto-butti/some-drops-of-php/graphs/contributors.
+Thanks to all the contributors <https://github.com/roberto-butti/some-drops-of-php/graphs/contributors>.
 
 ### License
 

@@ -34,7 +34,7 @@ Here are some of the ways you can get involved:
 
 ## How to Get Started
 
-The **Some drops of PHP** repository is: https://github.com/roberto-butti/some-drops-of-php
+The **Some drops of PHP** repository is: <https://github.com/roberto-butti/some-drops-of-php>
 
 1. Fork the [repository](https://github.com/roberto-butti/some-drops-of-php) to your GitHub account.
 2. Create a new branch for your contributions.

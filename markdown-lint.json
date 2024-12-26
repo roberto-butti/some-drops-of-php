@@ -6,7 +6,7 @@
   "line_length": false,
   "ul-indent": false,
   "no-inline-html": false,
-  "no-bare-urls": false,
+  "no-bare-urls": true,
   "fenced-code-language": false,
   "first-line-h1": false
 }
