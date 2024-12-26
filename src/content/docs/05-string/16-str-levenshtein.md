@@ -23,7 +23,7 @@ This measure is used in various applications, such as spelling correction, searc
 
 The PHP language offers us the `levenshtein()` function.
 
-~~~php
+```php
 echo levenshtein("hello", "hallo");
 // 1
 
@@ -35,8 +35,7 @@ echo levenshtein("table", "tablet");
 
 echo levenshtein("kitten", "sitting");
 // 3
-
-~~~
+```
 
 ## The cost of the operation
 
@@ -46,10 +45,10 @@ You can set the `$insertion_cost`, `$replacement_cost`, and `$deletion_cost`.
 The ability to assign costs to operations may lead to situations where a lower total cost can be achieved through a sequence of operations that does not necessarily represent the minimum number of operations.
 For example:
 
-~~~php
+```php
 levenshtein("hello", "halo", replacement_cost: 4)
 // 3
-~~~
+```
 
 The minimum total cost is calculated with the operations:
 
